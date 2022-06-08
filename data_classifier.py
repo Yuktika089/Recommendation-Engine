@@ -33,4 +33,4 @@ class KNearestNeighbours:
         # Fetch the count for each category from the K nearest neighbours
         self.counts.extend([(i, self.categories.count(i)) for i in set(self.categories)])
         # Find the highest repeated category among the K nearest neighbours
-        self.category_assigned = sorted(self.counts, key=itemgetter(1), reverse=True)[0][0]
+        self.category_assigned = sorted(self.counts, key=itemgetter(1), reverse=True)[0][0] 
