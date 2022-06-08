@@ -39,7 +39,7 @@ if __name__ == '__main__':
     st.markdown("<h3 style='text-align: center;'>One solution for all movie cravings!</h3>", unsafe_allow_html=True)
     #st.subheader('One solution for all movie cravings!')
     #loading image from system
-    img = Image.open('yo.png') 
+    img = Image.open('Images/yo.png') 
     st.image(img, use_column_width=True)
     
     name = st.text_input("Enter Your Name", "Type Here")
@@ -91,5 +91,5 @@ if __name__ == '__main__':
     audio1 = open("song.mp3", "rb")
     st.audio(audio1)
     
-    img = Image.open('yo1.png') 
+    img = Image.open('Images/yo1.png') 
     st.image(img, use_column_width=True)
